@@ -1,10 +1,21 @@
 import React, { Component } from "react";
-import "./App.css";
 
-import Quiz from "./Quiz.js";
+let quizData = require("./quiz_data.json");
 
-class App extends Component {
+class Quiz extends Component {
+  constructor(props) {
+    super(props);
+    this.state = { quiz_position: 1 };
+  }
   render() {
-    return (<div />), (<Quiz />);
+    return (
+      <div>
+        <div className="QuizQuestion">
+          {quizData.quiz_questions[0].instruction_text}
+        </div>
+      </div>
+    );
   }
 }
+
+export default Quiz;
