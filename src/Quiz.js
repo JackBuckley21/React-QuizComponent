@@ -8,11 +8,7 @@ class Quiz extends Component {
     this.state = { quiz_position: 1 };
   }
   render() {
-    <div>
-      <div className="QuizQuestion">
-        {quizData.quiz_questions[0].instruction_text}
-      </div>
-    </div>;
+    <div> Quiz</div>;
   }
 }
 
