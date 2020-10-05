@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Quiz from "./Quiz";
 
-class QuizQuestions extends Component() {
+class QuizQuestion extends Component() {
   render() {
     <main>
       <section>
@@ -14,4 +14,4 @@ class QuizQuestions extends Component() {
   }
 }
 
-export default QuizQuestions;
+export default QuizQuestion;
