@@ -15,5 +15,6 @@ class QuizQuestion extends Component() {
     </main>;
   }
 }
+///
 
 export default QuizQuestion;
